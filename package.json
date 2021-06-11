@@ -1,5 +1,10 @@
 {
   "name": "chatbot-slack-projen",
+  "description": "Aws Chatbot message by slack on AWS CDK",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/104corp/chatbot-slack-projen"
+  },
   "scripts": {
     "clobber": "npx projen clobber",
     "bump": "npx projen bump",
@@ -21,16 +26,25 @@
     "projen": "npx projen",
     "start": "npx projen start"
   },
+  "author": {
+    "name": "Yuri Luo",
+    "email": "yuri.luo@104.com.tw",
+    "organization": false
+  },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.72",
     "@types/jest": "^26.0.23",
+    "@types/js-yaml": "^3.12.5",
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
-    "aws-cdk": "^1.95.2",
+    "aws-cdk": "1.97.0",
     "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.4",
     "jest-junit": "^12",
     "json-schema": "^0.3.0",
@@ -42,10 +56,21 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
-    "@aws-cdk/assert": "^1.95.2",
-    "@aws-cdk/core": "^1.95.2"
+    "@aws-cdk/assert": "1.97.0",
+    "@aws-cdk/aws-chatbot": "1.97.0",
+    "@aws-cdk/aws-cloudwatch": "1.97.0",
+    "@aws-cdk/aws-cloudwatch-actions": "1.97.0",
+    "@aws-cdk/aws-iam": "1.97.0",
+    "@aws-cdk/aws-lambda": "1.97.0",
+    "@aws-cdk/aws-sns": "1.97.0",
+    "@aws-cdk/core": "1.97.0",
+    "js-yaml": "^3.14.1"
   },
   "bundledDependencies": [],
+  "keywords": [
+    "Chatbot",
+    "Slack"
+  ],
   "license": "Apache-2.0",
   "version": "0.0.0",
   "jest": {

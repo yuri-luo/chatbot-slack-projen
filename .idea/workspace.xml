@@ -6,25 +6,34 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b134b7-d402-425a-8ae2-079bf9d35820" name="默认的" comment="" />
+    <list default="true" id="c6b134b7-d402-425a-8ae2-079bf9d35820" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/test/main.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/upgrade-dependencies.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/upgrade-dependencies.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mergify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.mergify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.projen/deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/.projen/deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.projen/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.projen/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.projenrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.projenrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chatbot-slack-demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chatbot-slack-demo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/test-event/src/testEventLambda.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/chatbot-slack-demo.test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/chatbot-slack-demo.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/chatbot-slack-demo.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +43,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -48,9 +57,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test1" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lambda/testLambda-event/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623379136287</updated>
-      <workItem from="1623379137672" duration="179000" />
+      <workItem from="1623379137672" duration="14750000" />
+      <workItem from="1623415568795" duration="605000" />
     </task>
     <servers />
   </component>
@@ -68,17 +96,8 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/chatbot-slack-demo.test.js" />
-        <option value="$PROJECT_DIR$/test/chatbot-slack-demo.test.d.ts" />
         <option value="$PROJECT_DIR$/bin/chatbot-slack-demo.js" />
         <option value="$PROJECT_DIR$/bin/chatbot-slack-demo.d.ts" />
-        <option value="$PROJECT_DIR$/lib/chatbot-slack-demo-stack.js" />
-        <option value="$PROJECT_DIR$/lib/chatbot-slack-demo-stack.d.ts" />
-        <option value="$PROJECT_DIR$/lambda/index.js" />
-        <option value="$PROJECT_DIR$/lambda/index.d.ts" />
-        <option value="$PROJECT_DIR$/cdk.out/asset.c034ed1f596a639a1bd26bfd6dbceb31f24031c7a13c8dd0ef12c3451ed1890c/index.js" />
-        <option value="$PROJECT_DIR$/cdk.out/asset.c034ed1f596a639a1bd26bfd6dbceb31f24031c7a13c8dd0ef12c3451ed1890c/index.d.ts" />
-        <option value="$PROJECT_DIR$/cdk.out/asset.00417d133ad4a35bd08a7b1cf12b694697e29c81be19ed36b7e3a5983da05c04/index.js" />
       </list>
     </option>
   </component>
@@ -92,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -99,9 +119,41 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="553" y="306" key="Github.ShareDialog" timestamp="1623379585623">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="553" y="306" key="Github.ShareDialog/0.25.1440.806@0.25.1440.806" timestamp="1623379585623" />
+    <state x="337" y="71" key="Github.UntrackedFilesDialog" timestamp="1623379592219">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="337" y="71" key="Github.UntrackedFilesDialog/0.25.1440.806@0.25.1440.806" timestamp="1623379592219" />
+    <state width="1386" height="192" key="GridCell.Tab.0.bottom" timestamp="1623407507675">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1386" height="192" key="GridCell.Tab.0.bottom/0.25.1440.806@0.25.1440.806" timestamp="1623407507675" />
+    <state width="1386" height="192" key="GridCell.Tab.0.center" timestamp="1623407507673">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1386" height="192" key="GridCell.Tab.0.center/0.25.1440.806@0.25.1440.806" timestamp="1623407507673" />
+    <state width="1386" height="192" key="GridCell.Tab.0.left" timestamp="1623407507672">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1386" height="192" key="GridCell.Tab.0.left/0.25.1440.806@0.25.1440.806" timestamp="1623407507672" />
+    <state width="1386" height="192" key="GridCell.Tab.0.right" timestamp="1623407507674">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1386" height="192" key="GridCell.Tab.0.right/0.25.1440.806@0.25.1440.806" timestamp="1623407507674" />
     <state x="149" y="25" key="SettingsEditor" timestamp="1623379316046">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.25.1440.806@0.25.1440.806" timestamp="1623379316046" />
+    <state x="398" y="137" width="643" height="582" key="find.popup" timestamp="1623406354236">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="398" y="137" width="643" height="582" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1623406354236" />
+    <state x="445" y="330" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623398560868">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="445" y="330" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1440.806@0.25.1440.806" timestamp="1623398560868" />
   </component>
 </project>
