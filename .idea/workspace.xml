@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b134b7-d402-425a-8ae2-079bf9d35820" name="默认的" comment="add chatbot-slack-demo-stack.ts">
-      <change beforePath="$PROJECT_DIR$/bin/chatbot-slack-demo.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/chatbot-slack-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/chatbot-slack-demo.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="c6b134b7-d402-425a-8ae2-079bf9d35820" name="默认的" comment="add docker image build lambda" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lambda/docker-event" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,9 +49,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lambda/docker-event" />
+      <recent name="$PROJECT_DIR$/lambda/test-event" />
       <recent name="$PROJECT_DIR$/test1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lambda/docker-event/src" />
       <recent name="$PROJECT_DIR$/lambda/testLambda-event/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
@@ -70,7 +69,11 @@
       <option name="presentableId" value="Default" />
       <updated>1623379136287</updated>
       <workItem from="1623379137672" duration="14750000" />
-      <workItem from="1623415568795" duration="909000" />
+      <workItem from="1623415568795" duration="18062000" />
+      <workItem from="1623894093310" duration="1438000" />
+      <workItem from="1623981043010" duration="1161000" />
+      <workItem from="1624240107758" duration="17145000" />
+      <workItem from="1624324129227" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="CDK =&gt; projen">
       <created>1623416245553</created>
@@ -86,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623416295105</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove bin">
+      <created>1623416526289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623416526289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add docker image build lambda">
+      <created>1624326660047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624326660047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,9 +133,15 @@
     </ignored-roots>
     <MESSAGE value="CDK =&gt; projen" />
     <MESSAGE value="add chatbot-slack-demo-stack.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chatbot-slack-demo-stack.ts" />
+    <MESSAGE value="remove bin" />
+    <MESSAGE value="add docker image build lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docker image build lambda" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624257059904">
+      <screen x="0" y="25" width="1280" height="718" />
+    </state>
+    <state x="100" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1280.718@0.25.1280.718" timestamp="1624257059904" />
     <state x="553" y="306" key="Github.ShareDialog" timestamp="1623379585623">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
@@ -147,10 +170,18 @@
       <screen x="0" y="25" width="1440" height="806" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.25.1440.806@0.25.1440.806" timestamp="1623379316046" />
-    <state x="398" y="137" width="643" height="582" key="find.popup" timestamp="1623406354236">
+    <state x="220" y="102" key="Vcs.Push.Dialog.v2" timestamp="1623416536763">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state x="398" y="137" width="643" height="582" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1623406354236" />
+    <state x="220" y="102" key="Vcs.Push.Dialog.v2/0.25.1440.806@0.25.1440.806" timestamp="1623416536763" />
+    <state x="398" y="137" width="643" height="582" key="find.popup" timestamp="1623416610294">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="398" y="137" width="643" height="582" key="find.popup/0.25.1440.806@0.25.1440.806" timestamp="1623416610294" />
+    <state x="299" y="25" width="840" height="1034" key="search.everywhere.popup" timestamp="1623722226755">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state x="299" y="25" width="840" height="1034" key="search.everywhere.popup/0.25.1440.806@0.25.1440.806" timestamp="1623722226755" />
     <state x="445" y="330" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623398560868">
       <screen x="0" y="25" width="1440" height="806" />
     </state>

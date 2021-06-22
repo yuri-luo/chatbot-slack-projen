@@ -9,7 +9,7 @@ const project = new AwsCdkTypeScriptApp({
   description: 'Aws Chatbot message by slack on AWS CDK',
   repository: 'https://github.com/104corp/chatbot-slack-projen',
   keywords: ['Chatbot', 'Slack'],
-  gitignore: [],
+  gitignore: ['lambda/docker-event/dist', 'lambda/test-event/dist'],
   buildWorkflow: false,
   cdkDependencies: [
     '@aws-cdk/core',
@@ -35,4 +35,18 @@ const project = new AwsCdkTypeScriptApp({
   // projectType: ProjectType.UNKNOWN,  /* Which type of project this is (library/app). */
   // releaseWorkflow: undefined,        /* Define a GitHub workflow for releasing from "main" when new versions are bumped. */
 });
+
+project.eslint.addRules({
+  'comma-dangle': [
+    'error',
+    {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+    },
+  ],
+});
+
 project.synth();

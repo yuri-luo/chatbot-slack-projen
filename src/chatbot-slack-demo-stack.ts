@@ -1,3 +1,4 @@
+import * as path from 'path';
 import * as chatBot from '@aws-cdk/aws-chatbot';
 import * as cloudWatch from '@aws-cdk/aws-cloudwatch';
 import * as cloudWatchActions from '@aws-cdk/aws-cloudwatch-actions';
@@ -5,7 +6,6 @@ import * as iam from '@aws-cdk/aws-iam';
 import * as lambda from '@aws-cdk/aws-lambda';
 import * as sns from '@aws-cdk/aws-sns';
 import * as cdk from '@aws-cdk/core';
-import * as path from 'path';
 
 export class ChatbotSlackDemoStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
@@ -32,7 +32,7 @@ export class ChatbotSlackDemoStack extends cdk.Stack {
           'cloudwatch:Get*',
           'cloudwatch:List*',
         ],
-      }),
+      })
     );
 
     // create chatBot by slack
@@ -69,9 +69,18 @@ export class ChatbotSlackDemoStack extends cdk.Stack {
         }
       ),
       runtime: lambda.Runtime.NODEJS_14_X,
-      handler: 'testEventLambda.handler',
+      handler: 'dist/testEventLambda.handler',
     });
 
+    new lambda.DockerImageFunction(this, 'DockerEventLambda', {
+      functionName: 'dockerEventLambda',
+      code: lambda.DockerImageCode.fromImageAsset(
+        path.join(__dirname, '../lambda/docker-event'),
+        {
+          cmd: ['dist/dockerEventLambda.handler'],
+        }
+      ),
+    });
 
     // create cloudwatch Metric by Lambda
     const metric = new cloudWatch.Metric({
