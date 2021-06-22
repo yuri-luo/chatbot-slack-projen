@@ -23,6 +23,8 @@ cdk.out/
 coverage
 jspm_packages/
 junit.xml
+lambda/docker-event/dist
+lambda/test-event/dist
 lerna-debug.log*
 lib-cov
 logs
