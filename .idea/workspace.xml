@@ -10,20 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b134b7-d402-425a-8ae2-079bf9d35820" name="默认的" comment="remove bin">
-      <change afterPath="$PROJECT_DIR$/lambda/docker-event/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/docker-event/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/docker-event/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/docker-event/src/dockerEventLambda.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/docker-event/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/test-event/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/test-event/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/test-event/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.projenrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.projenrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chatbot-slack-demo-stack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatbot-slack-demo-stack.ts" afterDir="false" />
-    </list>
+    <list default="true" id="c6b134b7-d402-425a-8ae2-079bf9d35820" name="默认的" comment="add docker image build lambda" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +73,7 @@
       <workItem from="1623894093310" duration="1438000" />
       <workItem from="1623981043010" duration="1161000" />
       <workItem from="1624240107758" duration="17145000" />
-      <workItem from="1624324129227" duration="645000" />
+      <workItem from="1624324129227" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="CDK =&gt; projen">
       <created>1623416245553</created>
@@ -109,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623416526289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add docker image build lambda">
+      <created>1624326660047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624326660047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +134,8 @@
     <MESSAGE value="CDK =&gt; projen" />
     <MESSAGE value="add chatbot-slack-demo-stack.ts" />
     <MESSAGE value="remove bin" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove bin" />
+    <MESSAGE value="add docker image build lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="add docker image build lambda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624257059904">
