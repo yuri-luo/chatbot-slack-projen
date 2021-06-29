@@ -9,7 +9,7 @@ const project = new AwsCdkTypeScriptApp({
   description: 'Aws Chatbot message by slack on AWS CDK',
   repository: 'https://github.com/104corp/chatbot-slack-projen',
   keywords: ['Chatbot', 'Slack'],
-  gitignore: ['lambda/docker-event/dist', 'lambda/test-event/dist'],
+  gitignore: ['lambda/docker-event/dist', 'lambda/test-event/dist', '.idea'],
   buildWorkflow: false,
   cdkDependencies: [
     '@aws-cdk/core',
@@ -25,15 +25,6 @@ const project = new AwsCdkTypeScriptApp({
   eslint: true,
   dependabot: false,
   releaseWorkflow: false,
-
-
-  // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
-  // deps: [],                          /* Runtime dependencies of this module. */
-  // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                       /* Build dependencies for this module. */
-  // packageName: undefined,            /* The "name" in package.json. */
-  // projectType: ProjectType.UNKNOWN,  /* Which type of project this is (library/app). */
-  // releaseWorkflow: undefined,        /* Define a GitHub workflow for releasing from "main" when new versions are bumped. */
 });
 
 project.eslint.addRules({
