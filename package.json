@@ -3,7 +3,7 @@
   "description": "Aws Chatbot message by slack on AWS CDK",
   "repository": {
     "type": "git",
-    "url": "https://github.com/104corp/chatbot-slack-projen"
+    "url": "https://github.com/yuri-luo/chatbot-slack-projen"
   },
   "scripts": {
     "clobber": "npx projen clobber",
