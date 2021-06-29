@@ -1,6 +1,6 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.97.0',
+  cdkVersion: '1.110.1',
   cdkVersionPinning: true,
   defaultReleaseBranch: 'master',
   name: 'chatbot-slack-projen',
