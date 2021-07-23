@@ -1,14 +1,5 @@
-# Welcome to your CDK TypeScript project!
+使用原生 CDK 結合 projen 進行管理，介接 lambda 觸發 cloudWatch Alerm 通知 ChatBot Slack
 
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+其中為了比對 lambda 的應用採取了以下兩種不同方式建置 lambda
+- 使用 lambda 程式打包進 S3 後再使用 typescript 進行編譯
+- 使用 docker bulid 方式對 lambda 進行編譯
